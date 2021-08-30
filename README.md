@@ -1,3 +1,3 @@
 # Music app
  PLAYit
- music-ff2aa.web.app
+ https://music-ff2aa.web.app/
