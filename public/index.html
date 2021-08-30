@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>MUSIC APP</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="mt-5 text-light text-center display-4">
+            <b>PLAYmusic</b>
+        </div>
+        <div class="container d-flex align-items-center justify-content-center uu">
+            
+            <div class="box text-center ">
+                <div class="upper d-flex justify-content-between">
+                    <i class="material-icons">expand_more</i>
+                    <span>PLAY MUSIC</span>
+                    <i class=" kk material-icons">dark_mode</i>
+                </div>
+                <div class="imge mt-3">
+                    <img src="" alt="">
+                </div>
+                <div class="song mt-3 ">
+                    <h5 class="name"></h5>
+                    <h6 class="artist"></h6>
+                </div>
+              
+                <div class="progress mt-4">
+                    <div class="bar"></div>
+                    <audio id="aud" src=""></audio>
+                </div>  
+                <div class="timer mt-1 d-flex justify-content-between">
+                    <span class="current">2:00</span>
+                    <span class="duration">4:00</span>
+                </div> 
+                <div class="control mt-3 d-flex justify-content-between">
+                    <i id="rep" class="material-icons">repeat</i>
+                    <i id="pre" class="material-icons">skip_previous</i>                
+                    <i id="pp" class="material-icons">play_circle</i>               
+                    <i id="next" class="material-icons">skip_next</i>
+                    <i id="playlist" class="material-icons">queue_music</i>
+                </div>
+    
+                <div class="mlist d-none">
+                    <div class="p-3 d-flex justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <i class="material-icons">queue_music</i>
+                            <span>Music List</span>
+                        </div>
+                        <i class="material-icons cls">close</i>
+                    </div>
+                    <ul class="list-group mt-1">
+                    </ul>  
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="script/mfile.js"></script>
+    <script src="script/back.js"></script>
+</body>
+</html>

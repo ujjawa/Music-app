@@ -1,0 +1,81 @@
+body{
+    background-image: url("images/bg-3.svg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box{
+    width:350px;
+    max-width:400px;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:2px 6px 18px rgba(0, 0, 0, 0.432) ;
+    position: relative;
+    overflow:hidden;
+    background-color: rgb(253, 253, 253);
+}
+.uu{
+    height: 600px;
+ 
+}
+.upper i{
+    font-size:30px;
+}
+.upper span{
+    font-size:17px;
+}
+.imge{
+  height:260px;
+  width:100%;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: grey;
+}
+.imge img{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+}
+.progress{
+    height:6px;
+    width:100%;
+    background-color: rgba(168, 161, 161, 0.397);
+    cursor:pointer;
+    
+}
+.progress .bar{
+    height:6px;
+    width:0%;
+    background-color: rgb(146, 14, 140);
+    border-radius: 50px;
+    
+}
+.control i{
+    font-size: 34px;
+    color: rgba(134, 7, 117, 0.993);
+    cursor: pointer;
+}
+#pp{
+    background-color: rgb(204, 201, 204);
+    border-radius: 50px;
+    box-shadow: 1px 2px 15px rgba(73, 72, 72, 0.884);
+    position: relative;
+}
+.mlist{
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.473);
+    border-radius: 15px;
+    position:absolute;
+    width:100%;
+    bottom:0;
+    left:0;
+    background-color: white;
+    max-height: 260px;
+    overflow-y: auto;  
+    cursor: pointer;
+}
+.mlist::-webkit-scrollbar{
+    width:0px;
+}
+.play{
+    color:rgb(146, 14, 140);
+    
+}
